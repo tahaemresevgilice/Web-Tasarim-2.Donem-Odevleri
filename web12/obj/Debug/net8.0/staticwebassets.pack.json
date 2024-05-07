@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\web12.bundle.scp.css",
+      "PackagePath": "staticwebassets\\web12.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\about\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\close-icon.svg",
+      "PackagePath": "staticwebassets\\img\\close-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\header-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\logos\\facebook.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\logos\\google.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\logos\\ibm.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\ibm.svg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\logos\\microsoft.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\microsoft.svg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\map-image.png",
+      "PackagePath": "staticwebassets\\img\\map-image.png"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\navbar-logo.svg",
+      "PackagePath": "staticwebassets\\img\\navbar-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tahae\\OneDrive\\Masaüstü\\W3b\\web12\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.web12.props",
+      "PackagePath": "build\\web12.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.web12.props",
+      "PackagePath": "buildMultiTargeting\\web12.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.web12.props",
+      "PackagePath": "buildTransitive\\web12.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.web12.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

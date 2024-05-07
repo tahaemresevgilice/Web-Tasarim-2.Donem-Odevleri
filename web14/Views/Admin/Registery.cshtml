@@ -1,0 +1,40 @@
+@model List<Register>
+@{
+    ViewData["Title"] = "Registery";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class="table table-head-bg-success table-striped table-hover">
+    <h2>Mevcut Üye Listesi</h2>
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Ad</th>
+            <th scope="col">Soyad</th>
+            <th scope="col">Email</th>
+            <th scope="col">Numara</th>
+            <th scope="col">Üye Tipi</th>
+            <th scope="col">Cinsiyet</th>
+            <th scope="col">İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <th>@item.Email</th>
+            <th>@item.Phone</th>
+            <td>@item.Tip</td>
+            <td>@item.Cinsiyet</td>
+            <td>
+                <a asp-controller="Admin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-outline-primary">Güncelle</a>
+                <a asp-controller="Admin" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<a asp-controller="Admin" asp-action="Add" class="btn btn-primary text-white my-2">Ekle</a>

@@ -1,0 +1,19 @@
+@model UyeTipi
+@{
+    ViewData["Title"] = "UyetipiAdd";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="col-lg-8">
+    <div class="register-text" id="register">
+        <form method="post" class="register-form">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label asp-for="Uyetipi">Uye tipi</label>
+                    <input asp-for="Uyetipi" type="text" id="Name" class="form-control">
+                    <span asp-validation-for="Uyetipi" class="text-danger"></span>
+                </div><br>
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Ekle</button>
+        </form>
+    </div>
+</div>

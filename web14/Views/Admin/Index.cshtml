@@ -1,0 +1,208 @@
+@using web14.Models;
+@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@model Register
+
+<h4 class="page-title">Kontrol Paneli</h4>
+<div class="row">
+    <div class="col-md-3">
+        <div class="card card-stats card-warning">
+            <div class="card-body ">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="la la-users"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div class="numbers">
+                            <p class="card-category">Ziyaretçiler</p>
+                            <h4 class="card-title">1.294</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-stats card-success">
+            <div class="card-body ">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="la la-bar-chart"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div class="numbers">
+                            <p class="card-category">Satışlar</p>
+                            <h4 class="card-title">$ 9.269</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-stats card-danger">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="la la-user"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div class="numbers">
+                            <p class="card-category">Mevcut Üyeler</p>
+                            <h4 class="card-title">487</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-stats card-primary">
+            <div class="card-body ">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="la la-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div class="numbers">
+                            <p class="card-category">Siparişler</p>
+                            <h4 class="card-title">375</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Kullanıcı İstatistikleri</h4>
+                <p class="card-category">
+                    Bu ayki kullanıcı istatistikleri</p>
+            </div>
+            <div class="card-body">
+                <div id="monthlyChart" class="chart chart-pie"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">2018 Satışları</h4>
+                <p class="card-category">
+                    Satılan ürün sayısı</p>
+            </div>
+            <div class="card-body">
+                <div id="salesChart" class="chart"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header ">
+                <h4 class="card-title">Tablo</h4>
+                <p class="card-category">Kullanıcılar Tablosu</p>
+            </div>
+            <div class="card-body">
+                <table class="table table-head-bg-success table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Ad</th>
+                            <th scope="col">Soyad</th>
+                            <th scope="col">Üyelik Tipi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mehmet</td>
+                            <td>Yılmaz</td>
+                            <td>Standart</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Burak</td>
+                            <td>Akdağ</td>
+                            <td>Premium</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Can</td>
+                            <td>Aksoy</td>
+                            <td>Temel</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Bilal</td>
+                            <td>Özdemir</td>
+                            <td>Premium</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a asp-controller="Admin" asp-action="Registery" class="btn">Tam Üye Listesi</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <nav class="pull-left">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.themekita.com">
+                            ThemeKita
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Yardım
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://themewagon.com/license/#free-item">
+                            Lisanslar
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright ml-auto">
+                2018, <i class="la la-heart heart text-danger"></i> ile yapılmıştır <a
+                    href="http://www.themekita.com">ThemeKita</a>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="modalUpdate" tabindex="-1" role="dialog" aria-labelledby="modalUpdatePro" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h6 class="modal-title"><i class="la la-frown-o"></i> Geliştirme Aşamasında</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Şu anda <b>Ready Dashboard</b> Bootstrap'un pro versiyonu geliştirme aşamasındadır.</p>
+                <p>
+                    <b>Bitince size haber vereceğiz</b>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>

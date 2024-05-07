@@ -1,0 +1,26 @@
+@* @model List<UyeTipi> *@
+@{
+    ViewData["Title"] = "Uyetipi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<table class="table table-head-bg-success table-striped table-hover">
+    <h2>Mevcut Üye Listesi</h2>
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Ad</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @* <td>@Model.Id</td>
+            <td>@Model.Uyetipi</td> *@
+            <td>
+                @* <a asp-action="UyetipiUpdate"asp-route-id="@item.Id" class="btn btn-outline-primary">Güncelle</a> *@
+                @* <a asp-action="UyetipiDelete"asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a> *@
+            </td>
+        </tr>
+    </tbody>
+</table>
+<a asp-action="UyetipiAdd" class="btn btn-primary text-white my-2">Ekle</a>

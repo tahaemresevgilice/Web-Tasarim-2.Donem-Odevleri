@@ -1,0 +1,508 @@
+﻿@using web14.Models;
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Register>
+<!-- Kahraman Bölüm Başlangıcı -->
+<section class="hero-section set-bg" data-setbg="img/hero-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="hero-text">
+                    <span>FİTNESS ELEMENTLERİ</span>
+                    <h1>VÜCUT KÜTLE İNDEKSİ HESAPLAYICI</h1>
+                    <p>Gutim, kullanıcı dostu BMI Hesaplayıcı kısayoluyla gelir<br /> size izin verir.</p>
+                    <a href="#" class="primary-btn">Daha Fazlası</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Kahraman Bölümü Sonu -->
+
+<!-- Hakkında Bölüm Başlangıcı -->
+<section class="about-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-pic">
+                    <img src="img/about-pic.jpg" alt="">
+                    <a href="https://www.youtube.com/watch?v=SlPhMPnQ58k" class="play-btn video-popup">
+                        <img src="img/play.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h2>Hakkımızda</h2>
+                    <p class="first-para">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium
+                        sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate
+                        cursus a amet.</p>
+                    <p class="second-para">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida
+                        quam semper libero sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                        rhoncus, gravida quam semper libero sit amet.</p>
+                    <a href="#" class="primary-btn">Daha Fazla Oku</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hakkında Bölümü Sonu -->
+
+<!-- Hizmetler Bölüm Başlangıcı -->
+<section class="services-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="services-pic">
+                    <img src="img/services/service-pic.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="service-items">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="services-item bg-gray">
+                                <img src="img/services/service-icon-1.png" alt="">
+                                <h4>Stratejiler</h4>
+                                <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                    montes.</p>
+                            </div>
+                            <div class="services-item bg-gray pd-b">
+                                <img src="img/services/service-icon-3.png" alt="">
+                                <h4>Antrenman</h4>
+                                <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                    montes.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item">
+                                <img src="img/services/service-icon-2.png" alt="">
+                                <h4>Yoga</h4>
+                                <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                    montes.</p>
+                            </div>
+                            <div class="services-item pd-b">
+                                <img src="img/services/service-icon-4.png" alt="">
+                                <h4>Kilo Kaybı</h4>
+                                <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                    montes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hizmetler Bölümü Sonu -->
+
+<!-- Sınıflar Bölüm Başlangıcı -->
+<section class="classes-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>SINIRSIZ DERSLER</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row classes-slider owl-carousel">
+            <div class="col-lg-4">
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-1.jpg">
+                    <div class="si-text">
+                        <h4>Yoga</h4>
+                        <span><i class="fa fa-user"></i> Ryan Knight</span>
+                    </div>
+                </div>
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-4.jpg">
+                    <div class="si-text">
+                        <h4>Karate</h4>
+                        <span><i class="fa fa-user"></i> Kevin McCormick</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-2.jpg">
+                    <div class="si-text">
+                        <h4>Koşu</h4>
+                        <span><i class="fa fa-user"></i> Randy Rivera</span>
+                    </div>
+                </div>
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-5.jpg">
+                    <div class="si-text">
+                        <h4>Dans</h4>
+                        <span><i class="fa fa-user"></i> Russell Lane</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-3.jpg">
+                    <div class="si-text">
+                        <h4>Özel Eğitim</h4>
+                        <span><i class="fa fa-user"></i> Cole Robertson</span>
+                    </div>
+                </div>
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-6.jpg">
+                    <div class="si-text">
+                        <h4>Kilo Kaybı</h4>
+                        <span><i class="fa fa-user"></i> Ryan Scott</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-7.jpg">
+                    <div class="si-text">
+                        <h4>Özel Eğitim</h4>
+                        <span><i class="fa fa-user"></i> Cole Robertson</span>
+                    </div>
+                </div>
+                <div class="single-class-item set-bg" data-setbg="img/classes/classes-8.jpg">
+                    <div class="si-text">
+                        <h4>Kilo Kaybı</h4>
+                        <span><i class="fa fa-user"></i> Ryan Scott</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sınıflar Bölümü Sonu -->
+
+<!-- Antrenör Bölüm Başlangıcı -->
+<section class="trainer-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>UZMAN ANTRENÖRLER</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-trainer-item">
+                    <img src="img/trainer/trainer-1.jpg" alt="">
+                    <div class="trainer-text">
+                        <h5>Patrick Cortez</h5>
+                        <span>Lider</span>
+                        <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-trainer-item">
+                    <img src="img/trainer/trainer-2.jpg" alt="">
+                    <div class="trainer-text">
+                        <h5>Gregory Powers</h5>
+                        <span>Spor koçu</span>
+                        <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-trainer-item">
+                    <img src="img/trainer/trainer-3.jpg" alt="">
+                    <div class="trainer-text">
+                        <h5>Walter Wagner</h5>
+                        <span>Dans antrenörü</span>
+                        <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Antrenör Bölüm Sonu -->
+
+<!-- Başarı Hikayeleri Bölüm Başlangıcı -->
+<section class="testimonial-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>success stories</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="testimonial-slider owl-carousel">
+                    <div class="testimonial-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div class="ti-pic">
+                            <img src="img/testimonial/testimonial-1.jpg" alt="">
+                            <div class="quote">
+                                <img src="img/testimonial/quote-left.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ti-author">
+                            <h4>Patrick Cortez</h4>
+                            <span>Leader</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div class="ti-pic">
+                            <img src="img/testimonial/testimonial-1.jpg" alt="">
+                            <div class="quote">
+                                <img src="img/testimonial/quote-left.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ti-author">
+                            <h4>Patrick Cortez</h4>
+                            <span>Leader</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Başarı Hikayeleri Bölüm Sonu -->
+
+    <!-- Banner Bölüm Başlangıcı -->
+    <section class="banner-section set-bg" data-setbg="img/banner-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-text">
+                        <h2>Eğitim alın</h2>
+                        <p>Gimply baskı ve dizgi endüstrisinin varsayılanı olmuştur. Lorem Ipsum, sanayinin standart
+                            metnidir.</p>
+                        <a href="#" class="primary-btn banner-btn">İletişime Geç</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="img/banner-person.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Bölüm Sonu -->
+
+    <!-- Üyelik Bölüm Başlangıcı -->
+    <section class="membership-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>ÜYELİK PLANLARI</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="membership-item">
+                        <div class="mi-title">
+                            <h4>Temel</h4>
+                            <div class="triangle"></div>
+                        </div>
+                        <h2 class="mi-price">$17<span>/01 ay</span></h2>
+                        <ul>
+                            <li>
+                                <p>Süre</p>
+                                <span>12 ay</span>
+                            </li>
+                            <li>
+                                <p>Kişisel antrenör</p>
+                                <span>00 kişi</span>
+                            </li>
+                            <li>
+                                <p>Kişi sayısı</p>
+                                <span>01 kişi</span>
+                            </li>
+                            <li>
+                                <p>Ziyaret sayısı</p>
+                                <span>Sınırsız</span>
+                            </li>
+                        </ul>
+                        <a asp-controller="Home" asp-action="Index" asp-fragment="register"
+                            class="primary-btn membership-btn">Şimdi Başla</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="membership-item">
+                        <div class="mi-title">
+                            <h4>Standart</h4>
+                            <div class="triangle"></div>
+                        </div>
+                        <h2 class="mi-price">$57<span>/01 ay</span></h2>
+                        <ul>
+                            <li>
+                                <p>Süre</p>
+                                <span>12 ay</span>
+                            </li>
+                            <li>
+                                <p>Kişisel antrenör</p>
+                                <span>01 kişi</span>
+                            </li>
+                            <li>
+                                <p>Kişi sayısı</p>
+                                <span>01 kişi</span>
+                            </li>
+                            <li>
+                                <p>Ziyaret sayısı</p>
+                                <span>Sınırsız</span>
+                            </li>
+                        </ul>
+                        <a asp-controller="Home" asp-action="Index" asp-fragment="register"
+                            class="primary-btn membership-btn">Şimdi Başla</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="membership-item">
+                        <div class="mi-title">
+                            <h4>Premium</h4>
+                            <div class="triangle"></div>
+                        </div>
+                        <h2 class="mi-price">$98<span>/01 ay</span></h2>
+                        <ul>
+                            <li>
+                                <p>Süre</p>
+                                <span>12 ay</span>
+                            </li>
+                            <li>
+                                <p>Kişisel antrenör</p>
+                                <span>01 kişi</span>
+                            </li>
+                            <li>
+                                <p>Kişi sayısı</p>
+                                <span>01 kişi</span>
+                            </li>
+                            <li>
+                                <p>Ziyaret Sayısı</p>
+                                <span>Sınırsız</span>
+                            </li>
+                        </ul>
+                        <a asp-controller="Home" asp-action="Index" asp-fragment="register"
+                            class="primary-btn membership-btn">Şimdi Başla</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Üyelik Bölüm Sonu -->
+    <!-- Register Section Begin -->
+    <section class="register-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="register-text" id="register">
+                        <form method="post" class="register-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="Name">Adı</label>
+                                    <input type="text" id="Name" name="Name" class="form-control">
+                                </div><br>
+                                <div class="col-lg-6">
+                                    <label for="Email">Email address</label>
+                                    <input type="text" id="Email" name="Email" class="form-control">
+                                </div><br>
+                                <div class="col-lg-6">
+                                    <label for="Surname">Soyadı</label>
+                                    <input type="text" id="Surname" name="Surname" class="form-control">
+                                </div><br>
+                                <div class="col-lg-6">
+                                    <label for="Phone">Telefon No*</label>
+                                    <input type="text" id="Phone" name="Phone" class="form-control">
+                                </div><br>
+                                <div class="col-lg-6">
+                                    <label for="Tip" id="Tip" name="Tip">Üyelik Tipi</label><br>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option value="temel">Temel</option>
+                                        <option value="standart" selected>Standart</option>
+                                        <option value="premium">Premium</option>
+                                    </select>
+                                </div><br>
+                                <div class="col-lg-6">
+                                    <label for="Cinsiyet" id="Cinsiyet" name="Cinsiyet">Cinsiyet</label><br>
+                                    <select class="form-control" aria-label="Default select example">
+                                        <option value="man">Erkek</option>
+                                        <option value="woman">Kadın</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary my-3">Ekle</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="register-pic">
+                        <img src="img/register-pic.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register Section End -->
+
+    <!-- Latest Blog Section Begin -->
+    <section class="latest-blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Latest Blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="img/blog/blog-1.jpg" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">February 17, 2019</div>
+                            <a href="#" class="tag">#Gym</a>
+                        </div>
+                        <h4><a href="#">10 States At Risk of Rural Hospital Closures</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="img/blog/blog-2.jpg" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">February 17, 2019</div>
+                            <a href="#" class="tag">#Sport</a>
+                        </div>
+                        <h4><a href="#">Diver who helped save Thai soccer team</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="img/blog/blog-3.jpg" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">February 17, 2019</div>
+                            <a href="#" class="tag">#Body</a>
+                        </div>
+                        <h4><a href="#">Man gets life in prison for stabbing</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Blog Section End -->

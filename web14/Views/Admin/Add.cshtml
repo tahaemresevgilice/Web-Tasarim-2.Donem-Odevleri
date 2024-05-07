@@ -1,0 +1,51 @@
+@model Register
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="col-lg-8">
+    <div class="register-text" id="register">
+        <form method="post" class="register-form">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label asp-for="Name">Adı</label>
+                    <input asp-for="Name" type="text" id="Name" class="form-control">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="Email">Email address</label>
+                    <input asp-for="Email" type="text" id="Email" class="form-control">
+                     <span asp-validation-for="Email" class="text-danger"></span>
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="Surname">Soyadı</label>
+                    <input asp-for="Surname" type="text" id="Surname" class="form-control">
+                     <span asp-validation-for="Surname" class="text-danger"></span>
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="Phone">Telefon No*</label>
+                    <input asp-for="Phone" type="text" id="Phone" class="form-control">
+                     <span asp-validation-for="Phone" class="text-danger"></span>
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="Tip" id="Tip">Üyelik Tipi</label><br>
+                    <select asp-for="Tip" class="form-control" aria-label="Default select example">
+                        <option value="temel">Temel</option>
+                        <option value="standart" selected>Standart</option>
+                        <option value="premium">Premium</option>
+                    </select>
+                     <span asp-validation-for="Tip" class="text-danger"></span>
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="Cinsiyet" id="Cinsiyet">Cinsiyet</label><br>
+                    <select asp-for="Cinsiyet" class="form-control" aria-label="Default select example">
+                        <option value="man">Erkek</option>
+                        <option value="woman">Kadın</option>
+                    </select>
+                     <span asp-validation-for="Cinsiyet" class="text-danger"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Ekle</button>
+        </form>
+    </div>
+</div>
