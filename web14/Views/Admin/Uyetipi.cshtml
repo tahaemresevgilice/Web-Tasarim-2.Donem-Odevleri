@@ -1,4 +1,4 @@
-@* @model List<UyeTipi> *@
+@model List<UyeTipi> 
 @{
     ViewData["Title"] = "Uyetipi";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -13,14 +13,17 @@
         </tr>
     </thead>
     <tbody>
+        @foreach(var item in Model)
+        {
         <tr>
-            @* <td>@Model.Id</td>
-            <td>@Model.Uyetipi</td> *@
+            <td>@item.Id</td>
+            <td>@item.Uyetipi</td>
             <td>
-                @* <a asp-action="UyetipiUpdate"asp-route-id="@item.Id" class="btn btn-outline-primary">Güncelle</a> *@
-                @* <a asp-action="UyetipiDelete"asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a> *@
+                <a asp-action="UyetipiUpdate"asp-route-id="@item.Id" class="btn btn-outline-primary">Güncelle</a> 
+                <a asp-action="UyetipiDelete"asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a> 
             </td>
         </tr>
+        }
     </tbody>
 </table>
 <a asp-action="UyetipiAdd" class="btn btn-primary text-white my-2">Ekle</a>

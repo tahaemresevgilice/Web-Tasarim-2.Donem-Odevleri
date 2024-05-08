@@ -28,13 +28,11 @@
                      <span asp-validation-for="Phone" class="text-danger"></span>
                 </div><br>
                 <div class="col-lg-6">
-                    <label asp-for="Tip" id="Tip">Üyelik Tipi</label><br>
-                    <select asp-for="Tip" class="form-control" aria-label="Default select example">
-                        <option value="temel">Temel</option>
-                        <option value="standart" selected>Standart</option>
-                        <option value="premium">Premium</option>
+                    <label asp-for="Uyetipi"></label>
+                    <select asp-for="Uyetipi" asp-items="@ViewBag.Kategoriler" class="form-control">
+                        <option value="">Seçiniz</option>
                     </select>
-                     <span asp-validation-for="Tip" class="text-danger"></span>
+                    <span asp-validation-for="Uyetipi" class="text-danger"></span>
                 </div><br>
                 <div class="col-lg-6">
                     <label asp-for="Cinsiyet" id="Cinsiyet">Cinsiyet</label><br>

@@ -24,8 +24,6 @@ namespace web14.Models
         public string ?Email { get; set; }
         public double Phone { get; set; }
         [Required(ErrorMessage = "Bu alan boş bırakılamaz.")]
-        public string ?Tip { get; set; }
-        [Required(ErrorMessage = "Bu alan boş bırakılamaz.")]
         public string ?Cinsiyet { get; set; }
         public int ÜyetipiId { get; set; }
         [Display(Name = "Üye Tipi")]
