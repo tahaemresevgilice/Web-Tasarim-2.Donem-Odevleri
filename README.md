@@ -4,7 +4,7 @@
 Merhaba! Burdaki projeler 02.02.2024 - 14.06.2024 Tarihleri arasındaki web ödevlerini kapsamaktadır. Bu verilen ödevler Asp.net Core MVC öğrenme sürecimin bir parçasıdır.
 
 ## Projedeki Teknolojiler
-<p class="left">[![My Skills](https://skillicons.dev/icons?i=dotnet)](https://skillicons.dev)</p>
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
 ---
 
