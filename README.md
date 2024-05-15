@@ -1,10 +1,10 @@
 
-# Web Tasarım Dersi 1.Dönem Ödevleri
+# Web Tasarım Dersi 2.Dönem Ödevleri
 
 Merhaba! Burdaki projeler 02.02.2024 - 14.06.2024 Tarihleri arasındaki web ödevlerini kapsamaktadır. Bu verilen ödevler Asp.net Core MVC öğrenme sürecimin bir parçasıdır.
 
 ## Projedeki Teknolojiler
-[![My Skills](https://skillicons.dev/icons?i=dotnet,sql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=dotnet,sqlite)](https://skillicons.dev)
 
 ---
 
