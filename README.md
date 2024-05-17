@@ -17,6 +17,7 @@ Merhaba! Burdaki projeler 02.02.2024 - 14.06.2024 Tarihleri arasındaki web öde
 
 
 3. Gerekli bağımlılıkları yükleyin:
+   
    -Projeyi çalıştırmadan önce, .NET Core SDK'nın (en azından 2.1 sürümü) yüklü olduğundan emin olun.
    -Gerekli Extention Paketlerinin Kurulu Olduğundan emin olun.
    -Veritabanı bağlantısı için, projenin appsettings.json dosyasındaki uygun bağlantı dizesini güncellemeniz gerekebilir.
