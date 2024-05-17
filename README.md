@@ -17,12 +17,16 @@ Merhaba! Burdaki projeler 02.02.2024 - 14.06.2024 Tarihleri arasındaki web öde
 
 
 3. Gerekli bağımlılıkları yükleyin:
+   -Projeyi çalıştırmadan önce, .NET Core SDK'nın (en azından 2.1 sürümü) yüklü olduğundan emin olun.
+   -Gerekli Extention Paketlerinin Kurulu Olduğundan emin olun.
+   -Veritabanı bağlantısı için, projenin appsettings.json dosyasındaki uygun bağlantı dizesini güncellemeniz gerekebilir.
+   -Projeyi çalıştırmak için Visual Studio Code veya Visual Studio gibi bir IDE kullanabilirsiniz.
 
 
-4. Geliştirme sunucusunu başlatın:
+5. Geliştirme sunucusunu başlatın:
 
 
-5. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
+6. Tarayıcınızda `localhost:3000` adresine gidin ve projeyi görüntüleyin.
 
 ---
 
